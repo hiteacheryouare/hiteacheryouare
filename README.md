@@ -2,7 +2,7 @@
 ## (hiteacheryouare)
 
 ### About
-Hi there!👋 I'm Ryan Mullin, a software engineer based in New Jersey. I'm a fan of the [Python programming language](https://www.python.org/), and I'm currently learning [C#](https://dotnet.microsoft.com/en-us/). I'm also a huge fan of [HTML5](https://www.w3.org/TR/html5/), and [CSS3](https://www.w3.org/Style/CSS/). I'm also a huge fan of [Git](https://git-scm.com/).
+Hi there!👋 I'm Ryan Mullin, a software engineer based in New Jersey. I'm a fan of the [Python programming language](https://www.python.org/), and I'm currently learning [C#](https://dotnet.microsoft.com/en-us/languages/csharp). I'm also a huge fan of [HTML5](https://www.w3.org/TR/html5/), and [CSS3](https://www.w3.org/Style/CSS/). I'm also a huge fan of [Git](https://git-scm.com/).
 
 ### Skills
 
@@ -23,7 +23,7 @@ Hi there!👋 I'm Ryan Mullin, a software engineer based in New Jersey. I'm a fa
 I started learning programming in late 2021.
 
 ### Basics
-- 🔭 I’m currently working on a [C#](https://dotnet.microsoft.com/en-us/), [Python](https://www.python.org/), and [HTML5](https://www.w3.org/TR/html5/) web application.
+- 🔭 I’m currently working on a [C#](https://dotnet.microsoft.com/en-us/languages/csharp), [Python](https://www.python.org/), and [HTML5](https://www.w3.org/TR/html5/) web application.
 - 🌱 I’m currently learning all of the languages you see above ⬆🆙
 - 👯 I’m looking to collaborate on anything that I can.
 - 🤔 I’m looking for help with anything that I can.
