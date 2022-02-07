@@ -31,6 +31,10 @@ I started learning programming in late 2021.
 - 😄 Pronouns: He/Him/His
 - ⚡ Fun fact: .NET Core is the future of .NET
 
+### Stats
+[![hiteacheryouare's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteacheryouare)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=hiteacheryouare&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![hiteacheeryouare's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=hiteacheryouare&theme=xcode)](https://git.io/hiteacheryouare)
 
 <!--
 **hiteacheryouare/hiteacheryouare** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
