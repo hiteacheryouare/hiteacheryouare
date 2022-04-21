@@ -13,7 +13,6 @@ Hi there!👋 I'm Ryan Mullin, a software engineer based in New Jersey. I'm a fa
 <img alt="Visual Studio" width="26px" src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" />
 <img alt="Visual Studio Code" width="26px" src="https://visualstudio.microsoft.com/wp-content/uploads/2019/09/vs-code-responsive-01-1.png" />
 <img alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img alt="C#" width="26px" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" />
 <img alt="Firebase" width="26px" src="https://www.gstatic.com/devrel-devsite/prod/v0cb51633d618abe46a66cb213829eebf08ffc674824d203cafddde748d2d407e/firebase/images/lockup.png" />
 <img alt="Python" width="26px" src="https://www.python.org/static/opengraph-icon-200x200.png" />
 
