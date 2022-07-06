@@ -1,39 +1,51 @@
-# Ryan Mullin 
-## (hiteacheryouare)
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ryan Mullin
+===================================================================================================================================
 
-### About
-Hi there!👋 I'm Ryan Mullin, a software engineer based in New Jersey. I mainly develop web applications for PorkyProductions, as well as Ryan Enterprises, with a focus on JavaScript
+Web Developer for @PorkyProductions and @RyanEnterprises
+--------------------------------------------------------
+
+Author and maintainer of JavaScript libraries such as UADetect, and deMotivator (as well as the PWA, and Desktop apps that go along with it). Fan of JavaScript, TypeScript, node.js, and VSCode.
+
+*   🌍  I'm based in Philadelphia
+*   🖥️  See my portfolio at [RyanWeb](http://hiteacheryouare.github.io/)
+*   ✉️  You can contact me at [rpmullin@comcast.net](mailto:rpmullin@comcast.net)
+*   🚀  I'm currently working on [UADetect](http://porkyproductions.github.io/UA-detect/)
+*   🧠  I'm learning Svelte
+*   🤝  I'm open to collaborating on anything WebDev related, if you have a cool project, show me!
+*   ⚡  I also swim competitively
+<a href="https://www.github.com/hiteacheryouare" target="_blank" rel="noreferrer"><img
+                  src="https://img.shields.io/github/followers/hiteacheryouare?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a><a href="https://www.twitch.tv/hiteacheryouare" target="_blank" rel="noreferrer"><img
+                  src="https://img.shields.io/twitch/status/hiteacheryouare?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=1c1917&label=TWITCH+STATUS" /></a>
 
 ### Skills
+<p align="left">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
+                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+                                <a href="https://jquery.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg" width="36" height="36" alt="JQuery" /></a>
+                                <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+                                <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a>
+                                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
+                                <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
+                                <a href="https://svelte.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg" width="36" height="36" alt="Svelte" /></a>
+                                <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
+                                <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
+                                <a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" /></a>
+                                <a href="adobe.com/uk/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored.svg" width="36" height="36" alt="Illustrator" /></a>
+                                <a href="https://www.adobe.com/uk/products/premiere.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored.svg" width="36" height="36" alt="Premiere Pro" /></a>
+                    </p>
 
-<img alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img alt="TypeScript" width="26px" src="https://codingthesmartway.com/wp-content/uploads/2017/12/logo_typescript.png">
-<img alt="Visual Studio" width="26px" src="https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg" />
-<img alt="Visual Studio Code" width="26px" src="https://visualstudio.microsoft.com/wp-content/uploads/2019/09/vs-code-responsive-01-1.png" />
-<img alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img alt="Firebase" width="26px" src="https://www.gstatic.com/devrel-devsite/prod/v0cb51633d618abe46a66cb213829eebf08ffc674824d203cafddde748d2d407e/firebase/images/lockup.png" />
+### Badges
 
+<b>My GitHub Stats</b>
 
+<a href="http://www.github.com/hiteacheryouare"><img src="https://github-readme-stats.vercel.app/api?username=hiteacheryouare&show_icons=true&hide=stars,&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="hiteacheryouare's GitHub stats" /></a>
 
-### Experience
+<a href="http://www.github.com/hiteacheryouare"><img src="https://github-readme-streak-stats.herokuapp.com/?user=hiteacheryouare&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
-I started learning programming in late 2021.
+<a href="http://www.github.com/hiteacheryouare"><img src="https://activity-graph.herokuapp.com/graph?username=hiteacheryouare&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
-### Basics
-- 🔭 I’m currently working on a <img src="https://user-images.githubusercontent.com/236501/105104854-e5e42e80-5a67-11eb-8cb8-46fccb079062.png" alt="capacitor" width="100px" /> Web App powered by Svelte
-- 🌱 I’m currently learning all of the languages you see above ⬆🆙
-- 👯 I’m looking to collaborate on anything that I can.
-- 🤔 I’m looking for help with anything that I can.
-- 💬 Ask me about Web Development
-- 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: deno is the future of JavaScript
-
-### Stats
-[![hiteacheryouare's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteacheryouare)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=hiteacheryouare&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-[![hiteacheeryouare's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=hiteacheryouare&theme=xcode)](https://git.io/hiteacheryouare)
+<a href="https://github.com/hiteacheryouare" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiteacheryouare&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 <!--
 **hiteacheryouare/hiteacheryouare** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
