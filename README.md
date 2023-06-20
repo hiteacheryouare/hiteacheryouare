@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ryan Mullin
 ===================================================================================================================================
 
-Web Developer for @PorkyProductions and Student @Camden-Catholic
+Web Developer for @PorkyProductions and Student @camdencatholic
 --------------------------------------------------------
 
 Author and maintainer of JavaScript libraries such as UADetect, and deMotivator (as well as the PWA, and Desktop apps that go along with it). Fan of JavaScript, TypeScript, node.js, and VSCode.
