@@ -1,0 +1,3 @@
+- **Name**: Ryan Mullin
+- **Major**: Computer Science & Business Administration
+- **Expected Graduation**: 2029
