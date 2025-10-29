@@ -102,6 +102,7 @@ Always include dark mode considerations using:
 4. **NO unnecessary abstractions** - Keep it simple
 5. **NO `var` keyword** except for truly single-use cases
 6. **NO following conventions just because they're "best practices"**
+7.  **NO magic** - codemods and random naming conventions that do crazy things just because they are named a certain way should be avoided at all costs. all things should be explicit and easy to understand.
 
 ### Anti-Patterns to Avoid
 - Over-engineering simple solutions

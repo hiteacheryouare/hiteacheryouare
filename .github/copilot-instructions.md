@@ -169,6 +169,7 @@ Be verbose here, not in the title.
 4. **Don't over-engineer simple solutions**
 5. **Don't add unnecessary abstractions or patterns**
 6. **Don't prioritize "clean code" over working code**
+7. **NO magic** - codemods and random naming conventions that do crazy things just because they are named a certain way should be avoided at all costs. all things should be explicit and easy to understand.
 
 ### Philosophy Violations to Avoid
 - Dogmatic adherence to SOLID, DRY, etc.
