@@ -1,184 +1,257 @@
-# GitHub Copilot Instructions - Web Development Projects
+Perfect — so you want a webdev-specific universal Copilot config, extending your global rules but tailored for JavaScript / TypeScript, frameworks, UI, and modern front-end workflow — basically your “one config to rule them all” for all web projects.
 
-## Project Context
-These instructions apply to all JavaScript, TypeScript, and web development projects. We value pragmatic solutions over dogmatic conventions. No bikeshedding allowed.
+This version integrates your personal JavaScript style guide (arrow functions, camelCase, semicolons, no explicit declarations, etc.) while keeping your pragmatic + humorous tone and framework-agnostic flexibility (Astro, React, Svelte, Vue, vanilla, etc.).
 
-## Language Rules
+Here’s the final version:
 
-### JavaScript/TypeScript Guidelines
-- TypeScript for complex logic and type-critical code
-- JavaScript for simple, straightforward implementations
-- JSX for simple React components without props
-- TSX for complex React components with props/state
+⸻
 
-### File Structure (Adapt to framework)
-```
-/src or /app
-  /components   # UI components
-  /utils        # Helper functions and shared logic
-  /lib          # External integrations
-  /styles       # Global styles only
-```
+🦒 GitHub Copilot Instructions — Universal Web Development Edition
 
-## Code Style Requirements
+🌐 Project Context
 
-### Formatting Standards
-- **Indentation**: TABS (not spaces)
-- **Line endings**: Windows (CRLF) 
-- **Quotes**: Single quotes only `'like this'`
-- **Semicolons**: ALWAYS use semicolons;
-- **Trailing commas**: Yes in multi-line objects/arrays
-- **Equality**: Use `===` except when type coercion is explicitly needed
+You are working on web projects that value clarity, pragmatism, and simplicity over dogma.
+We prefer things that are explicit, maintainable, and human-readable.
+No over-engineering. No “industry-standard” fluff unless it genuinely helps.
 
-### Naming Conventions
-- **Everything**: camelCase
-  - Variables: `myVariable`
-  - Functions: `myFunction`  
-  - Constants: `myConstant` (NOT UPPER_SNAKE_CASE)
-  - Files: `myComponent.jsx` or `helperFunction.ts`
-  - CSS classes: Use framework conventions (Tailwind utilities)
+We build websites and web apps that just work, look clean, and are fun to maintain.
+Giraffes and hedgehogs approve. 🦒🦔
 
-### Function Declarations - CRITICAL RULE
-```javascript
-// ✅ CORRECT - Named anonymous arrow functions
-const myFunction = () => {
-	// function body
+⸻
+
+🧠 Core Philosophy
+	1.	Clarity > cleverness.
+	2.	Functionality > purity.
+	3.	Consistency > convention.
+	4.	Simplicity scales.
+	5.	Code should have personality.
+
+When in conflict, simplicity wins. Always.
+
+⸻
+
+🗂️ Project Structure (Recommended)
+
+/src
+  /components   # UI elements, pages, and layouts
+  /utils        # Helpers, transformations, constants
+  /assets       # Images, fonts, media
+  /styles       # Global or shared .scss/.css
+
+	•	Shallow folder depth — 2 or 3 levels max.
+	•	Components and utilities go in their proper homes.
+	•	Keep each file under ~200 lines if possible.
+	•	Split large logic naturally; don’t invent abstractions for the sake of it.
+
+⸻
+
+💻 JavaScript / TypeScript Style Guide
+
+Formatting
+	•	Indentation: Tabs (no spaces).
+	•	Line endings: CRLF.
+	•	Quotes: Single 'like this'.
+	•	Semicolons: Always.
+	•	Line length: Use common sense — readable, not cramped.
+
+Naming Conventions
+
+Everything in camelCase:
+	•	Variables → userData
+	•	Functions → processLogin
+	•	Constants → maxItems
+	•	Files → userCard.jsx, authHelpers.ts
+	•	Components → PascalCase for React/Svelte/Vue components
+
+Function Declarations
+	•	Always use arrow functions or anonymous exports.
+	•	Never use function keyword for new code.
+	•	Never name default exports.
+	•	Keep functions short and self-contained.
+
+Examples:
+
+// ✅ Correct
+const processData = (data) => {
+	// logic
+	return result;
 };
 
-// ✅ CORRECT - Anonymous default export
 export default () => {
-	// component/function body
+	return <div>Example</div>;
 };
 
-// ✅ CORRECT - Async arrow function
-const fetchData = async () => {
-	// async logic
+// ❌ Wrong
+function processData(data) { ... } // Never
+export default function MyComponent() { ... } // Never
+
+Variable Rules
+	•	Use const by default.
+	•	Use let when reassigning.
+	•	Never use var unless forced by ancient code or specific scope quirks.
+	•	No implicit globals — everything must be declared.
+
+Data & Logic
+	•	Put all constants, arrays, mock data, or repeated logic in /src/utils.
+	•	Keep render or template files focused on structure, not computation.
+	•	Avoid magic numbers or unexplained constants — name everything meaningfully.
+
+⸻
+
+⚛️ Component Philosophy
+
+Applies to React, Svelte, Vue, Astro, or other component-based frameworks:
+	•	Each component = one purpose.
+	•	Break up large files (>200 lines) into smaller pieces.
+	•	Move heavy logic to /utils and import.
+	•	Keep markup readable — no nested ternaries or logic bombs.
+	•	Avoid prop drilling where possible — use context or helpers instead.
+	•	No “God components” that handle everything.
+
+Example:
+
+// ✅ GOOD
+import { data } from '../utils/data';
+import { formatData } from '../utils/formatData';
+
+export default () => {
+	return (
+		<div>
+			{formatData(data).map((item) => (
+				<p key={item.id}>{item.text}</p>
+			))}
+		</div>
+	);
 };
 
-// ❌ WRONG - Never use explicit function declaration
-function myFunction() { } // NEVER DO THIS
 
-// ❌ WRONG - Never name default exports  
-export default function MyComponent() { } // NEVER DO THIS
+⸻
 
-// ⚠️ EXCEPTION - Only use var for single-use, no-hoisting-issue variables
-var tempThing = 'used once'; // Rarely acceptable
-```
+💄 Styling Rules
+	1.	Bootstrap for structure.
+	•	Use it for modals, cards, navbars, layout grids, etc.
+	2.	Tailwind for utilities.
+	•	Use it for spacing, color, typography, and responsiveness.
+	3.	NEVER raw CSS except for global overrides.
+	4.	Use .scss files (not .sass).
+	5.	Always support dark mode using Tailwind’s dark: utilities.
+	6.	Avoid third-party UI kits (Material-UI, Chakra, Shadcn, etc.).
 
-## Framework-Agnostic Component Rules
-- Maximum 200 lines per component/module
-- Separate data from logic from presentation
-- Helper functions go in separate utility files
-- Mock data and constants in dedicated files
-- Keep side effects minimal and isolated
+Example:
 
-## Styling Philosophy
+<div className="card">
+	<div className="card-body p-4 dark:bg-gray-800">
+		<h2 className="text-2xl font-bold dark:text-white">Title</h2>
+	</div>
+</div>
 
-### Preferred Styling Approach (in order)
-1. **Bootstrap COMPONENTS** - For structural UI elements (modals, cards, etc.)
-2. **Tailwind CSS** - For utility classes and custom styling
-3. **CSS Modules or SCSS** - Only when framework requires it
-4. **Never raw CSS** - Exception: Global resets or critical overrides
 
-### What NOT to Use
-- NO shadcn/ui
-- NO headlessui  
-- NO Material-UI, Ant Design, Chakra UI
-- NO CSS-in-JS unless project already uses it
-- NO styled-components unless project already uses it
+⸻
 
-### Dark Mode
-Always include dark mode considerations using:
-- Tailwind's `dark:` prefix
-- CSS variables for theming
-- System preference detection
+🧰 Libraries and Dependencies
+	•	Use libraries intentionally, not reflexively.
+	•	Native APIs > third-party packages where possible.
+	•	Avoid “magic” libraries that hide complexity behind config.
+	•	Every dependency should earn its place.
 
-## What Copilot Should NEVER Suggest
+Avoid adding:
+	•	UI frameworks beyond Bootstrap/Tailwind.
+	•	Overcomplicated state management (use context/hooks/local state first).
+	•	Unnecessary testing frameworks.
 
-### Absolute Prohibitions
-1. **NO testing libraries by default** - Only if project already has tests
-2. **NO external UI libraries** beyond Bootstrap/Tailwind unless already in project
-3. **NO explicit function declarations** - Always arrow functions
-4. **NO unnecessary abstractions** - Keep it simple
-5. **NO `var` keyword** except for truly single-use cases
-6. **NO following conventions just because they're "best practices"**
-7.  **NO magic** - codemods and random naming conventions that do crazy things just because they are named a certain way should be avoided at all costs. all things should be explicit and easy to understand.
+⸻
 
-### Anti-Patterns to Avoid
-- Over-engineering simple solutions
-- Premature optimization
-- Excessive commenting on obvious code
-- Deep nesting (flatten with early returns)
-- Callback hell (use async/await)
-- Global state unless absolutely necessary
+🧪 Testing & Debugging
+	•	Manual testing is fine.
+	•	Quick browser checks or console logs > heavy testing libraries.
+	•	Use small, isolated debug utilities when needed.
+	•	Don’t write tests for trivial functions — test meaningful behavior.
 
-## Comments Philosophy
-- Only comment truly complex/unclear code
-- No JSDoc unless project requires it
-- No TODO comments that will never get done
-- Comments should explain WHY, not WHAT
+When something breaks:
+	1.	Git revert to last working commit.
+	2.	Simplify the approach.
+	3.	Don’t over-engineer the fix.
 
-## Git Commit Style
+⸻
 
-### Commit Title
-- Terse, general description
-- Emoji if genuinely funny/relevant 
-- No conventional commit format unless required
+⚙️ Error Handling
+	•	Fail visibly, not silently.
+	•	Log meaningful messages.
+	•	Avoid complex “catch everything” frameworks.
+	•	Keep error logic clear and direct.
 
-### Commit Message Body  
-- Extremely detailed and verbose
-- Reference everything relevant:
-  - Contributors, bots, PRs, issues
-  - Files changed and why
-  - Related commits and context
-  - Implementation decisions
+Example:
 
-## Async and Data Handling
-- Prefer `async/await` over `.then()` chains
-- Simple fetch over axios unless needed
-- Handle errors pragmatically, not dogmatically
-- No complex state management unless truly necessary
+try {
+	await fetchData();
+} catch (err) {
+	console.error('Failed to fetch data:', err);
+}
 
-## Build and Deploy
-- Keep build configs simple
-- No over-optimization of bundle size
-- Deploy via GitHub Actions when possible
-- Environment variables for configuration
 
-## Core Philosophy
-- **Pragmatism > Dogma**: Solutions that work over "perfect" code
-- **Simplicity > Complexity**: Avoid over-engineering
-- **My conventions > Popular conventions**: These rules override "best practices"
-- **No bikeshedding**: Spend time on real problems, not style debates
-- **Working code > Clean code**: Make it work first, refactor if needed
+⸻
 
-## Framework-Specific Notes
+🗣️ Git Commit Style
 
-### React/Next.js
-- Functional components only
-- Hooks over HOCs
-- Server components where beneficial
-- App router over pages router (Next.js 13+)
+Title
+	•	Short and human.
+	•	Funny or emoji welcome.
+	•	No shouting or robotic phrasing.
 
-### Vue
-- Composition API over Options API
-- Script setup syntax preferred
-- Single-file components
+Example:
 
-### Svelte/SvelteKit  
-- Use built-in stores sparingly
-- Leverage compiler optimizations
-- Server-side rendering by default
+🦔 Fixed mobile navbar not closing
 
-### Node.js/Express
-- Arrow functions for routes
-- Middleware for cross-cutting concerns  
-- Simple error handling, not elaborate
+Body
+	•	Long, detailed, narrative-style explanation.
+	•	Include why decisions were made, not just what changed.
+	•	Mention related issues, PRs, or bots.
+	•	List changed files if significant.
 
-## Remember
-When suggesting code:
-1. Arrow functions ALWAYS
-2. Bootstrap components + Tailwind utilities for styling
-3. Keep modules under 200 lines
-4. Avoid mainstream conventions that conflict with these rules
-5. Pragmatic and working > theoretically perfect
+Example:
+
+🦒 Fixed dropdown flicker on Safari
+
+Turns out Safari was re-rendering the entire nav on state change.
+Switched the toggle handler to use a ref-based approach instead of state.
+Also added dark mode classes for dropdown text.
+
+Files changed:
+- /src/components/Navbar.jsx
+- /src/utils/navHelpers.ts
+
+Relates to PR #42, Issue #38
+
+
+⸻
+
+🧭 Copilot Guidance
+
+Copilot should:
+	•	Write clear, simple, modern JS/TS.
+	•	Use arrow functions, camelCase, and semicolons.
+	•	Follow Bootstrap + Tailwind styling only.
+	•	Suggest small, explicit functions instead of big abstractions.
+	•	Prefer readability over brevity.
+	•	Assume manual testing, not Jest or Cypress.
+
+Copilot should NEVER:
+	1.	Suggest function declarations (function foo() {}).
+	2.	Use var.
+	3.	Suggest UI frameworks other than Bootstrap/Tailwind.
+	4.	Introduce unnecessary dependencies.
+	5.	Use fancy build setups, decorators, or magic patterns.
+
+⸻
+
+🧭 When in Doubt
+	1.	Use arrow functions.
+	2.	Keep it simple.
+	3.	Keep it modular.
+	4.	Keep it readable.
+	5.	Use Bootstrap for structure, Tailwind for detail.
+	6.	Remember: 🦒 Giraffes and 🦔 hedgehogs are cool.
+
+⸻
+
+Would you like me to create a short “drop-in” version (like a 30-line copilot.config.md snippet you can paste at the top of any repo)? That version is great for embedding directly in project roots without the full doc.

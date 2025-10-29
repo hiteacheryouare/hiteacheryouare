@@ -1,222 +1,194 @@
-# GitHub Copilot Instructions - Universal
+Perfect — so you want a universal copilot-instructions.md that codifies your personal engineering philosophy across all projects, regardless of language or framework.
 
-## Core Philosophy
-These instructions apply to ALL projects regardless of language or framework. Pragmatism over dogma. Working solutions over theoretical perfection. No bikeshedding.
+I’ll base it on your original Astro-specific file but abstract it to a language-agnostic, framework-neutral guide — keeping your humor, personality, and pragmatic discipline intact.
 
-## Universal Principles
+Here’s the complete, ready-to-use version:
 
-### Code Quality Metrics (In Order of Importance)
-1. **Does it work?** - Functionality first
-2. **Is it maintainable?** - Can someone else understand it?
-3. **Is it efficient enough?** - Don't over-optimize
-4. **Is it simple?** - Avoid unnecessary complexity
+⸻
 
-### What I Value
-- **Clarity over cleverness** - Readable code beats "smart" code
-- **Explicit over implicit** - Be clear about intent
-- **Flat over nested** - Early returns, guard clauses
-- **Practical over perfect** - Ship working code
-- **My conventions over popular ones** - Follow these rules, not trends
+🦒 GitHub Copilot Instructions (Universal)
 
-## Naming Conventions
+Project Context
 
-### General Rules (Language-Specific Variations)
-- **Default to camelCase** for most languages
-- **Descriptive but not verbose** - `userId` not `u` or `userIdentificationNumber`
-- **Consistency within project** - Match existing patterns
-- **No Hungarian notation** - Types should be obvious or inferred
-- **Avoid abbreviations** except common ones (ctx, config, req, res)
+You are assisting in projects that value pragmatic solutions over dogmatic conventions.
+We prioritize clarity, maintainability, and sanity over “best practices” for their own sake.
 
-### Language-Specific
-```python
-# Python: snake_case
-def my_function():
-    my_variable = "value"
+No bikeshedding.
+No unnecessary abstraction.
+Giraffes and hedgehogs are welcome. 🦒🦔
 
-// JavaScript/TypeScript/Java/C#: camelCase
-const myFunction = () => {
-    const myVariable = "value";
-}
+⸻
 
-// Go: Follow Go conventions but keep it simple
-func myFunction() {
-    myVariable := "value"
-}
+🔧 Core Philosophy
+	1.	Working code beats perfect code.
+	2.	Readability is everything.
+	3.	Explicit > implicit.
+	4.	Simplicity scales; cleverness breaks.
+	5.	Personality belongs in code.
 
--- SQL: snake_case for tables/columns
-SELECT user_id FROM user_accounts;
-```
+If mainstream conventions conflict with these principles, ignore them.
 
-## Comments and Documentation
+⸻
 
-### When to Comment
-- **Complex algorithms** - Explain the WHY
-- **Business logic** - Context for decisions
-- **Workarounds** - Why we're doing something weird
-- **External integrations** - API quirks or limitations
+🗂️ Project Structure
+	•	Keep folder structures logical and minimal.
+	•	Separate core logic, utilities, and presentation (whatever those mean for the language).
+	•	Avoid deep nesting. Two or three levels is enough.
+	•	Use clear, human-readable filenames in camelCase.
+	•	myFunction.js, dataHelpers.py, userRoutes.go
 
-### When NOT to Comment
-- **Obvious code** - `// increment counter` is useless
-- **Every function** - Only if genuinely complex
-- **TODOs that won't happen** - Delete or do them
-- **Commented-out code** - Use version control instead
+When a file grows over ~200 lines or a function feels “dense,” split it up. Don’t force abstractions—split naturally.
 
-### Documentation
-- README should explain HOW TO RUN IT
-- Setup instructions must actually work
-- API documentation only for public APIs
-- No extensive docs for internal/private code
+⸻
 
-## Error Handling Philosophy
+🧠 Code Style Rules (Language-Agnostic)
 
-### Pragmatic Approach
-1. **Fail fast** - Catch errors early
-2. **Fail clearly** - Useful error messages
-3. **Recover when sensible** - Don't try to handle everything
-4. **Log appropriately** - Enough to debug, not spam
+General Formatting
+	•	Indentation: Tabs (never spaces).
+	•	Line endings: CRLF.
+	•	Quotes: Single quotes 'like this' if the language allows.
+	•	Semicolons: Always, if the language uses them.
+	•	Line length: No strict max; use judgment.
 
-### What NOT to Do
-- Don't catch and ignore errors silently
-- Don't over-engineer error handling
-- Don't create custom error types unnecessarily
-- Don't wrap everything in try-catch
+Naming
 
-## Testing Approach
+Everything in camelCase:
+	•	Variables → userData
+	•	Functions → fetchUserData
+	•	Constants → apiUrl
+	•	Files → userRoutes.js
+	•	No screaming snake case. Ever.
 
-### My Testing Philosophy
-- **Manual testing first** - Make sure it actually works
-- **Automated tests only when valuable** - Not for coverage metrics
-- **Integration > Unit tests** - Test real behavior
-- **No TDD zealotry** - Write tests when they help
+⸻
 
-### If Tests Exist in Project
-- Follow existing patterns
-- Don't reduce coverage
-- Fix broken tests, don't skip them
-- Keep tests simple and readable
+🧩 Function & Class Conventions
+	•	Prefer arrow functions or lambdas when possible.
+	•	Avoid traditional function or overly verbose class syntax unless the language requires it.
+	•	Keep functions short, clear, and purpose-driven.
+	•	Name functions descriptively — no cryptic abbreviations.
+	•	Default exports or public entry points should be anonymous unless naming improves clarity.
 
-## Git Commit Style
+Golden Rule:
 
-### Universal Commit Format
-```
-Brief description (emoji if genuinely adds value)
+If someone can’t tell what your function does by reading it once, rewrite it.
 
-Detailed explanation that covers:
-- What changed and why
-- Implementation decisions
-- References to issues/PRs/collaborators
-- Any gotchas or important notes
-- Related changes in other files
+⸻
 
-Don't worry about line length in messages.
-Be verbose here, not in the title.
-```
+💬 Comments
+	•	Only comment complex or non-obvious logic.
+	•	No “what this line does” fluff.
+	•	No JSDoc-style boilerplate unless it adds real value.
+	•	Explain why, not what.
+	•	Humor and personality are encouraged when genuine.
 
-### What to Avoid
-- Conventional commits (unless required)
-- Single-word commits like "fix" or "update"
-- Essay-length titles
-- Empty message bodies for complex changes
+Example:
 
-## Performance and Optimization
+// Yes, I know this loop looks cursed. It’s faster and I hate it too.
 
-### Pragmatic Performance
-1. **Make it work first** - Correctness before speed
-2. **Profile before optimizing** - Don't guess
-3. **Optimize the hot path** - Focus on what matters
-4. **Good enough is good enough** - 100ms vs 50ms rarely matters
 
-### Anti-Patterns
-- Premature optimization
-- Micro-optimizations that hurt readability
-- Caching everything "just in case"
-- Complex abstractions for "future flexibility"
+⸻
 
-## Dependency Management
+💄 Styling (Cross-Language)
+	•	Use a utility-first mindset.
+	•	Never hardcode colors, spacing, or typography if your stack supports tokens or utility classes.
+	•	Avoid raw CSS or inline styles unless you have to.
+	•	Use preprocessor or system-level styling (scss, design tokens, etc.) only when necessary.
+	•	Always include dark mode or theme variants if applicable.
 
-### Adding Dependencies
-- **Evaluate necessity** - Can we do it simply without?
-- **Check maintenance** - Is it actively maintained?
-- **Consider size** - Especially for frontend
-- **Prefer boring** - Battle-tested over cutting-edge
+⸻
 
-### What to Avoid
-- Adding dependencies for trivial functionality
-- Multiple libraries doing the same thing
-- Deprecated or abandoned packages
-- Bleeding-edge alpha/beta versions in production
+🧰 Dependencies
+	•	Keep external libraries to a minimum.
+	•	Don’t add dependencies to solve trivial problems.
+	•	Avoid trendy, overabstracted tools that obscure intent.
+	•	Native solutions > third-party when possible.
 
-## Code Organization
+Rule of thumb:
 
-### Universal Structure Principles
-- **Separation of concerns** - But don't over-separate
-- **Logical grouping** - Related things together
-- **Flat when possible** - Deep nesting is confusing
-- **Consistent patterns** - Same problem, same solution
+Every new dependency must earn its keep.
 
-### What NOT to Do
-- Over-architect simple projects
-- Create abstractions for single-use cases
-- Deeply nested folder structures
-- Separate every tiny concern
+⸻
 
-## What Copilot Should NEVER Do
+🧪 Testing & Debugging
+	•	Manual testing is fine.
+	•	Automated testing is great if it’s lightweight and adds real value.
+	•	Prefer small, focused scripts or quick REPL tests over bloated test suites.
+	•	Don’t mock the world just to test a function.
 
-### Universal Prohibitions
-1. **Don't suggest "best practices" that add complexity without value**
-2. **Don't follow conventions just because they're popular**
-3. **Don't suggest testing libraries/frameworks unless already in use**
-4. **Don't over-engineer simple solutions**
-5. **Don't add unnecessary abstractions or patterns**
-6. **Don't prioritize "clean code" over working code**
-7. **NO magic** - codemods and random naming conventions that do crazy things just because they are named a certain way should be avoided at all costs. all things should be explicit and easy to understand.
+When something breaks:
+	1.	Revert to last working version.
+	2.	Try a simpler approach.
+	3.	Don’t over-engineer the fix.
 
-### Philosophy Violations to Avoid
-- Dogmatic adherence to SOLID, DRY, etc.
-- Design patterns for the sake of patterns
-- Excessive OOP or FP purism
-- Architecture astronautics
-- Bikeshedding over minor details
+⸻
 
-## Language-Specific Notes
+⚙️ Error Handling
+	•	Handle errors visibly, not silently.
+	•	Fail fast, log meaningfully, move on.
+	•	No layers of abstract error frameworks unless required.
+	•	Keep recovery logic simple and human-readable.
 
-### Web (JS/TS/CSS)
-- Arrow functions preferred
-- Tailwind/Bootstrap for styling
-- Simple solutions over frameworks
+⸻
 
-### Python
-- List comprehensions when readable
-- Type hints for public APIs
-- `if __name__ == "__main__":`
+🗣️ Commit Style
 
-### Java/C#
-- Avoid enterprise fizzbuzz
-- Minimize boilerplate
-- Pragmatic OOP, not dogmatic
+Title
+	•	Short, clear, maybe funny.
+	•	Emoji allowed and encouraged if it adds personality. 🦒🦔
 
-### Go
-- Embrace simplicity
-- Error handling without panic
-- Interfaces when needed, not always
+Example:
 
-### SQL
-- Readable queries over clever ones
-- CTEs for complex queries
-- Indexes on foreign keys
+🦔 Fix weird navbar thing again
 
-## Final Reminders
+Body
+	•	Write as if telling the story of what changed.
+	•	Explain why decisions were made.
+	•	Include related issues, PRs, or files changed.
+	•	It’s okay to overexplain. Future-you will thank you.
 
-### When Writing Code
-1. **Will this work?**
-2. **Can someone else understand this?**
-3. **Am I over-complicating?**
-4. **Am I following conventions just because?**
-5. **Is this pragmatic?**
+Example:
 
-### Core Mantra
-**"Make it work, make it right (enough), ship it"**
+🦒 Adjusted login redirect
 
-We're building software that solves problems, not writing poetry. Pragmatism beats perfectionism. My conventions beat popular conventions. Simple beats complex. Working beats theoretical.
+Found that the redirect logic was running before the session token initialized. 
+Moved the check to after the auth middleware executes. 
+Also noticed the “remember me” checkbox wasn’t persisting across sessions—fixed that too.
 
-No bikeshedding. Ever.
+Files changed:
+- /src/routes/login.js
+- /src/utils/authHelpers.js
+
+Related: PR #24, Issue #19
+
+
+⸻
+
+🧭 Copilot Guidance
+
+Copilot should:
+	•	Prioritize clarity and simplicity over cleverness.
+	•	Suggest modular, readable code with clear variable names.
+	•	Avoid introducing unnecessary abstractions or dependencies.
+	•	Use arrow functions, camelCase, and consistent formatting.
+	•	Keep code visually neat and easy to reason about.
+
+Copilot should NEVER:
+	1.	Suggest testing libraries by default.
+	2.	Add UI frameworks or dependencies without context.
+	3.	Write cryptic, magic-heavy code.
+	4.	Follow mainstream style guides just because they’re “standard.”
+	5.	Overabstract — clarity beats cleverness.
+
+⸻
+
+🧭 When in Doubt
+	1.	Keep it explicit.
+	2.	Keep it simple.
+	3.	Keep it small.
+	4.	Keep it readable.
+	5.	And remember: Giraffes and hedgehogs are cool. 🦒🦔
+
+⸻
+
+Would you like me to make a “compact” version next (like one you could paste as a header block comment inside any project’s main file, summarizing your style in <50 lines)?
+That’s often useful for when you don’t want a full Markdown doc but want your rules baked into a repo’s DNA.
