@@ -161,6 +161,35 @@ Files changed:
 Related: PR #24, Issue #19
 
 
+----
+📦 Dependency & Environment Management
+
+**Local-First, Project-Scoped Everything**
+- Every project should have its own isolated dependency environment
+- No global installations unless absolutely unavoidable
+- Dependencies should live in the project directory where you can see and delete them
+- Reproducibility > convenience
+
+**Preferred Patterns:**
+- ✅ npm with local node_modules
+- ✅ uv for Python (project-scoped virtual environments)
+- ✅ Local package installation that you can `rm -rf` when things break
+
+**Rejected Patterns:**
+- ❌ CDN imports (looking at you, `<script src="https://cdn..."`)
+- ❌ URL-based package imports (Deno's import maps)
+- ❌ Globally-scoped package managers (pip's default behavior)
+- ❌ Forced remote coupling (Go's GitHub requirement)
+
+**Why:**
+- If your internet dies, your project should still work
+- If a CDN goes down, your site shouldn't break
+- If you delete a project folder, all traces should vanish with it
+- Dependencies should be *tangible things you can inspect*, not abstract remote references
+
+**Golden Rule:**
+If I can't `cd` into it, `ls` it, and `rm -rf` it, I don't trust it.
+
 ⸻
 
 🧭 Copilot Guidance
@@ -189,6 +218,3 @@ Copilot should NEVER:
 	5.	And remember: Giraffes and hedgehogs are cool. 🦒🦔
 
 ⸻
-
-Would you like me to make a “compact” version next (like one you could paste as a header block comment inside any project’s main file, summarizing your style in <50 lines)?
-That’s often useful for when you don’t want a full Markdown doc but want your rules baked into a repo’s DNA.
