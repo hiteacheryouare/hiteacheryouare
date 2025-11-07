@@ -47,7 +47,7 @@ A mission-driven website built with Astro and TailwindCSS for a nonprofit provid
 
 ---
 
-### 🌍 [SmartCarbon](https://github.com/camdencatholic/smartcarbon)
+### 🌍 [SmartCarbon](https://camdencatholic.github.io/smartcarbon)
 **Eco-Friendly Travel Carbon Calculator** | *Personal Project*
 
 A web app helping travelers make sustainable decisions by calculating and visualizing their carbon footprint. Features dynamic algorithms and actionable reduction strategies.
@@ -92,7 +92,7 @@ A satirical web app that delivers random insults at the push of a button. Featur
 
 ## 📦 Open Source Contributions
 
-### 🔍 [UADetect](https://github.com/porkyproductions/uadetect)
+### 🔍 [UADetect](https://github.com/porkyproductions/ua-detect)
 A dead-simple TypeScript library for interacting with the Navigator API. Fully typed with tree-shaking support and multiple usage patterns.
 
 ```bash
