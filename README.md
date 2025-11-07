@@ -47,7 +47,7 @@ A mission-driven website built with Astro and TailwindCSS for a nonprofit provid
 
 ---
 
-### 🌍 [SmartCarbon](https://github.com/yourusername/smartcarbon)
+### 🌍 [SmartCarbon](https://github.com/camdencatholic/smartcarbon)
 **Eco-Friendly Travel Carbon Calculator** | *Personal Project*
 
 A web app helping travelers make sustainable decisions by calculating and visualizing their carbon footprint. Features dynamic algorithms and actionable reduction strategies.
@@ -83,7 +83,7 @@ Complete website for a local (now defunct) swim team featuring achievements, eve
 
 ---
 
-### 😤 [(de)Motivator](https://github.com/yourusername/demotivator)
+### 😤 [(de)Motivator](https://demotivator.web.app)
 **Self-Esteem Lowering Web App** | *Personal Project*
 
 A satirical web app that delivers random insults at the push of a button. Features MEGAMODE for rapid-fire roasts and an account system to track your descent into despair.
@@ -92,14 +92,14 @@ A satirical web app that delivers random insults at the push of a button. Featur
 
 ## 📦 Open Source Contributions
 
-### 🔍 [UADetect](https://github.com/yourusername/uadetect)
+### 🔍 [UADetect](https://github.com/porkyproductions/uadetect)
 A dead-simple TypeScript library for interacting with the Navigator API. Fully typed with tree-shaking support and multiple usage patterns.
 
 ```bash
 npm i -d uadetect
 ```
 
-### 💔 [(de)Motivator.js](https://github.com/yourusername/demotivator-js)
+### 💔 [(de)Motivator.js](https://github.com/PorkyProductions/deMotivator.js)
 An extensive JavaScript library to integrate the power of (de)Motivator into any webapp. Perfect for casually throwing shade at your users!
 
 ```bash
@@ -108,9 +108,9 @@ npm i demotivator
 
 ## 📊 GitHub Stats
 
-![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
+![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteacheryouare&show_icons=true&theme=dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hiteacheryouare&layout=compact&theme=dark)
 
 ## 🏆 Achievements & Impact
 
