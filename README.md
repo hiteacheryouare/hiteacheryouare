@@ -1,130 +1,84 @@
 ![A headshot of a giraffe eating](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGpxMWFqNG9uNHJoeWoxbHd6Y2ZoMTJiYXNtYndrdmJnMThmc29iZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PJwXma4lIDD0UIh1JL/giphy.gif)
 
-# RYAN MULLIN!!!! 
+# Ryan Mullin
 
-**CS & Business @ Northeastern** | **Full-Stack Developer** | **Tech-Driven Strategy Enthusiast**
+I like to build cool things using cool tools and also sometimes make things that make me laugh.
 
-I'm a Computer Science and Business Administration student passionate about building impactful solutions at the intersection of technology and strategy. From leading 1,000+ attendee events to crafting web experiences that drive real results, I thrive where code meets business impact.
+## What I'm working on at the moment...
 
-## 🚀 What I'm Up To
+- **[ArenaSwap](https://hiteacheryouare.github.io/arenaswap/)** — A cross-browser extension I'm building that watches every live game in your tabs and automatically swaps you to whichever one is most exciting at the moment, scored by a custom algorithm called PowerScore.
+- **Northeastern Electric Racing** — Sponsorship & Fundraising Lead for Northeastern's 400+ member Formula SAE Electric team. Run partner outreach across engineering, EV, and tech, including active relationships with Rivian, Tesla, and Shield AI.
+- **Larchmont Swim Club** — Head Lifeguard at a private member-based facility serving 1,400+ daily guests across five pools. Run rotations, in-service training, and chemistry compliance for a 70-person guard staff.
+- **Larchmont Barracudas** — Assistant Coach for the summer-league swim team, working with competitive swimmers ages 6–18.
+- **Northeastern Husky Ambassadors** — Representing Northeastern to prospective students and families through tours, info sessions, and panel discussions.
+- **Freelance development** — Continuing to ship websites for nonprofits and community organizations.
 
-- 🏎️ **Corporate Relations Lead** at Northeastern Electric Racing - securing partnerships with companies like Rivian, Tesla, and Shield AI
-- 💻 **Freelance Developer** - Building responsive, modern web applications for clients
-- 📚 **Combined Major** - Pursuing CS & Business Administration at Northeastern (Class of 2029)
-- 🎤 I also have a history of producing podcasts. Check out [Between Bells Season 2](https://open.spotify.com/show/4fijD4ueAVM0ywxTUA4gsk?si=29954ce99f6c49f4)
-- 🎢 In my free time, I enjoy swimming, listening to podcasts, and I'm also a rollercaoster enthusiast, with 56 ridden to date!
-
-## 🛠️ Tech Stack
+## My Preferred Stack(s)
 
 ### Languages & Frameworks
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Styling & Design
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css)
 
-### Tools & Platforms
+### Tooling & Deploy
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## 💡 Featured Projects
+## Some of my faves!
 
-### 📚 [The Book Nook Project](https://thebooknookproject.netlify.app/)
-**Empowering Young Minds Through Books** | *Freelance Client Work*
+### [ArenaSwap](https://hiteacheryouare.github.io/arenaswap/)
 
-A mission-driven website built with Astro and TailwindCSS for a nonprofit providing books to underprivileged children. The site connects with organizations like LUCY Outreach and the Philadelphia DA's Office.
-
-**Tech:** Astro • HTML • TailwindCSS • Bootstrap • Netlify
+A browser extension that monitors live sports games across your open tabs and automatically switches the active tab to the most exciting game in progress, scored in real time by PowerScore, a custom algorithm I designed that takes in score differential, time remaining, scoring runs, possession changes, and league-specific signals to produce a single excitement score per game.
 
 ---
 
-### 🌍 [SmartCarbon](https://camdencatholic.github.io/smartcarbon)
-**Eco-Friendly Travel Carbon Calculator** | *Personal Project*
+### [(de)Motivator](https://demotivator.web.app)
 
-A web app helping travelers make sustainable decisions by calculating and visualizing their carbon footprint. Features dynamic algorithms and actionable reduction strategies.
+A long-running side project that does exactly one thing: lower your self-esteem on demand. Press the button, get insulted. It started in 2021 as a single-page HTML site and has since grown into:
 
-**Tech:** Next.js • React • TypeScript • TailwindCSS • Bootstrap
-
----
-
-### 📰 [You're Not Newsworthy!](https://ynn.vercel.app/)
-**Fake News Article Generator** | *Personal Project*
-
-A fun prank app that creates realistic-looking news articles. Choose from various categories and customize headlines, images, and content to fool your friends!
-
-**Tech:** Next.js • React • TailwindCSS • Bootstrap • Vercel
+- A web app with a steadily expanding insult library
+- **MEGAMODE**
+- An account system, backed by Firebase Auth, with a per-user counter for tracking total insults received (some users are well into the thousands)
+- So many other things
 
 ---
 
-### 🚀 [Launchpad](https://launchpadapp.vercel.app/)
-**Database-Free Link-in-Bio Generator** | *Personal Project*
+### [The Book Nook Project](https://thebooknookproject.netlify.app/)
 
-A minimalist link-in-bio card generator perfect for freelancers, influencers, and entrepreneurs. No database required - just simple, elegant online presence.
-
-**Tech:** Next.js • React • TailwindCSS • Bootstrap • Vercel
+Built and shipped the website for a Philadelphia-area nonprofit that gets books into the hands of underprivileged children, partnering with organizations including LUCY Outreach, Mighty Writers, the Osborn Family Health Center, and the Philadelphia District Attorney's Office.
 
 ---
 
-### 🏊 [Tritons Swim](https://tritons-swim.netlify.app/archive)
-**Deerwood Tritons Official Website** | *Freelance Client Work*
 
-Complete website for a local (now defunct) swim team featuring achievements, events, news, and member registration. Custom AI-designed angry seahorse logo included!
+### [Tritons Swim](https://tritons-swim.netlify.app/archive) *(archived)*
 
-**Tech:** Astro • React • Svelte • TailwindCSS • Bootstrap • Netlify
+Full team website for the Deerwood Tritons summer swim team — registration, record book, roster, sponsor pages, and news. Now archived after the team folded.
 
----
+## Some of My Favorite Achievements
 
-### 😤 [(de)Motivator](https://demotivator.web.app)
-**Self-Esteem Lowering Web App** | *Personal Project*
+- **2× Dean's List** at Northeastern University
+- **4.0 GPA** as of the most recent term
+- Gave the [senior address](https://youtu.be/BqXdyTZGBvk) at CCHS
+- Led a 10-person ambassador team and contributed to 150+ new student enrollments at Camden Catholic High School
+- Grew Camden Catholic's social media presence to 5,000+ followers across platforms
+- Trustee Merit Scholarship recipient, CCHS
 
-A satirical web app that delivers random insults at the push of a button. Features MEGAMODE for rapid-fire roasts and an account system to track your descent into despair.
+## Connect
 
-**Tech:** Svelte • Vite • TailwindCSS • Bootstrap • Capacitor • Firebase
-
-## 📦 Open Source Contributions
-
-### 🔍 [UADetect](https://github.com/porkyproductions/ua-detect)
-A dead-simple TypeScript library for interacting with the Navigator API. Fully typed with tree-shaking support and multiple usage patterns.
-
-```bash
-npm i -d uadetect
-```
-
-### 💔 [(de)Motivator.js](https://github.com/PorkyProductions/deMotivator.js)
-An extensive JavaScript library to integrate the power of (de)Motivator into any webapp. Perfect for casually throwing shade at your users!
-
-```bash
-npm i demotivator
-```
-
-## 📊 GitHub Stats
-
-![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=hiteacheryouare&show_icons=true&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hiteacheryouare&layout=compact&theme=dark)
-
-## 🏆 Achievements & Impact
-
-- 🎯 **150+ new students enrolled** through marketing and admissions initiatives at Camden Catholic
-- 👥 **Led 10-person team** managing major events with 1,000+ attendees
-- 📱 **Grew social media to 5,000+ followers** across multiple platforms
-- 🏊 **Lifeguard with 1 documented save** at Larchmont Swim Club
-- 🎓 **Trustee Merit Scholarship** recipient at CCHS
-
-## 🤝 Let's Connect!
-
-I'm always excited to collaborate on projects that blend technology with real-world impact. Whether it's building your next web app, discussing tech strategy, or exploring innovative solutions, let's chat!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rpmullin06)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanpmullin/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rpmullin17@gmail.com)
-
----
+[![Site](https://img.shields.io/badge/Site-1a1a2e?style=for-the-badge&logo=astro&logoColor=white)](https://hiteacheryouare.github.io)
